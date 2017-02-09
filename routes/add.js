@@ -13,4 +13,7 @@ exports.addFriend = function(req, res) { 
     );
     console.log(friend);
     data.friends.push(friend);
+    res.render('index', data);
+
+
  }
